@@ -1,0 +1,60 @@
+#intro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #f2f5f6;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#intro aside {
+    max-width: 100%;
+    min-width: 45rem;
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#intro h1 {
+    font-size: 3rem;
+}
+
+#intro h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(140deg, #2980b9, #6dd5fa, #e2dede);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#intro img {
+    max-width: 50%;
+    min-width: 45rem;
+}
+
+
+#intro button {
+    width: 17rem;
+    padding: .5rem 2rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+
+#intro button:hover {
+    transform: scale(1.05);
+    transition-duration: .5s;
+}

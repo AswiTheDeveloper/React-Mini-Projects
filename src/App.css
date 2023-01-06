@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 2rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+#home {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('https://wallpaperaccess.com/full/51363.jpg');
+  background-size: cover;
+}
+
+nav h3 {
+  width: 40%;
+}
+
+nav ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about {
+  text-align: center;
+  font-size: 3rem;
+}
+
+img {
+  height: 20rem;
+}
+
+td {
+  margin: 0 1rem;
+}
+
+* {
+  /* border: 1px solid red; */
+}
+
+.quiz {
+  /* background-image: url('./background.png'); */
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+}
+
+.quiz section {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #C7E4E8;
+  background-image: url('./background.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.quiz h1 {
+  font-size: 3rem;
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+}
+
+.quiz h2 {
+  margin: .4rem 0;
+}
+
+.quiz ul {
+  width: 100%;
+}
+
+.quiz input {
+  padding: .4rem;
+  width: 15rem;
+  border-radius: .3rem;
+  border: none;
+  outline: none;
+}
+
+.quiz ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.quiz ul li {
+
+  padding: .7rem;
+  border-radius: .4rem;
+  background-color: #FFFFFF;
+  color: #00196D;
+  border: 5px solid transparent;
+
+
+}
+
+.quiz ul li:hover {
+  border: 5px solid #C7E4E8;
+
+
+}
+
+.quiz button {
+  font-size: 2rem;
+  border: none;
+  padding: .5rem 2rem;
+  background-color: transparent;
+  backdrop-filter: blur(6px);
+
+  color: white;
+}
+
+.quiz .styles {
+  font-size: 1.2rem;
+
+  padding: .4rem 2rem;
+  width: 10rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  border: 5px solid #1A67F8;
+  backdrop-filter: blur(3px);
+}
+
+.lost {
+  filter: brightness(.8);
+  opacity: .7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: .4rem;
+  padding: .2rem;
+  border-radius: 5px;
+
+}

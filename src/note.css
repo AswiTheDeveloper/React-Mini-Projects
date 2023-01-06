@@ -1,0 +1,132 @@
+body {
+    /* background-color: black;
+    /* color: black; */
+
+    /* color: white;  */
+    color: black;
+}
+
+.note {
+    width: 45rem;
+    min-height: 30rem;
+    max-height: auto;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232734;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    margin-top: 5rem;
+
+
+}
+
+.note h1 {
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.note h1 span {
+    color: #03CC90;
+
+}
+
+.note header,
+.note section aside {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    background-color: #3F4354;
+    height: 6rem;
+    border-radius: 1rem;
+
+}
+
+.note header button {
+    background-color: #03CC90;
+    border: none;
+    padding: 0rem 1.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: .9rem;
+    color: #FFFFFF;
+    height: 2rem;
+
+}
+
+.note input {
+    padding: .5rem 1rem;
+    border-radius: .6rem;
+    border: none;
+    outline: none;
+}
+
+.note article p {
+    margin: .3rem;
+}
+
+.note section {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note section aside {
+    margin: .1rem 0;
+    /* background-color: #050D21; */
+}
+
+.note h3 {
+    color: #1A67F8;
+
+}
+
+.note aside p {
+    color: #C9D5EE;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.note aside button {
+    background-color: #03CC90;
+    padding: .4rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+
+
+}
+
+
+.note .del {
+    background-color: #1A67F8;
+    border-radius: .3rem;
+    font-weight: bold;
+
+}
+
+.note .time {
+    font-size: .7rem;
+    color: #CDDFE3;
+}
+
+/* 
+.note section aside:nth-child(even) {
+    background-color: #7F8C8C;
+} */
+
+
+#complete-btn {
+    text-decoration: line-through;
+
+}
+
+input::placeholder {
+    font-weight: bold;
+    color: lightgray;
+}

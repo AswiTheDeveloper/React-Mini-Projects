@@ -1,0 +1,279 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+* {
+    /* border: 1px solid rgb(178, 108, 108); */
+}
+
+.calendar {
+    width: 75rem;
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D4EBEA;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 1rem;
+}
+
+.calendar header {
+    width: 25%;
+    height: 33rem;
+    background-image: url('https://images.unsplash.com/photo-1599382305605-1d2c926983f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80');
+    background-size: cover;
+    position: relative;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+.calendar header h1 {
+    font-size: 9rem;
+    font-weight: normal;
+    margin-top: -2rem;
+    font-family: sans-serif;
+}
+
+.calendar header section {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+
+}
+
+.calendar header p,
+.calendar header h2 {
+    color: aquamarine;
+    letter-spacing: 1px;
+}
+
+.calendar>main {
+    width: 80%;
+    height: 33rem;
+    display: flex;
+    background-color: #4c3060;
+    padding: 1rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+.calendar aside {
+    width: 30%;
+    height: 30rem;
+}
+
+.calendar>main>section {
+    width: 70%;
+    height: 31rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    color: #084653;
+    border-radius: 1rem;
+}
+
+.calendar>main>section section {
+    display: grid;
+    grid-template-columns: repeat(7, 5rem);
+    text-align: center;
+    margin: .6rem;
+}
+
+.calendar>main>section section:nth-child(3) article {
+    border: 1px solid rgb(245, 241, 241);
+    padding: 1rem;
+    color: #4c3060;
+
+}
+
+.calendar>main aside {
+    padding: 1rem;
+}
+
+.calendar ul {
+    list-style: disc;
+    width: 100%;
+    padding: 0;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.calendar ul li {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.calendar ul li h4 {
+    width: 100%;
+    font-weight: normal;
+}
+
+.calendar ul li p {
+    font-size: .8rem;
+    color: gray;
+}
+
+
+
+
+.watch {
+    padding: 3rem;
+    width: 65rem;
+    height: 100vh;
+    background-color: #caf0f8;
+    display: flex;
+}
+
+.watch aside {
+    background-color: #219ebc;
+    margin: auto;
+    width: 60%;
+    height: 30rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem;
+    padding-bottom: 1rem;
+    border-radius: .8rem;
+
+}
+
+.watch li {
+    text-align: start;
+}
+
+.watch li::before {
+    content: '🌟';
+}
+
+.watch article {
+    display: flex;
+    justify-content: center;
+    width: 40rem;
+    height: 12rem;
+    background-color: white;
+    position: absolute;
+    top: 9rem;
+    left: -2rem;
+    color: #caf0f8;
+    font-weight: bold;
+    font-size: 4rem;
+    align-items: center;
+    border-radius: .8rem;
+}
+
+.watch article h1 {
+    color: black;
+    margin: 0 2rem;
+    font-weight: normal;
+    position: relative;
+}
+
+.watch article h1::after {
+    content: 'MINUTES';
+    position: absolute;
+    bottom: -.8rem;
+    font-size: .8rem;
+    left: 1rem;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.watch article h1:nth-child(2)::after {
+    content: 'SECONDS';
+}
+
+.watch article h1:nth-child(3)::after {
+    content: 'MILLISECONDS';
+    left: 0rem;
+
+
+}
+
+.watch section h4 {
+    color: #caf0f8;
+}
+
+.watch section h1 {
+    font-size: 2rem;
+}
+
+
+.watch article img {
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1.5rem;
+    height: 4rem;
+    width: auto;
+}
+
+.watch ul {
+    min-height: 1rem;
+    max-height: auto;
+    background-color: #219ebc;
+    position: absolute;
+    top: 22rem;
+    border-radius: .2rem;
+    padding: .4rem;
+}
+
+* {
+    /* border: 1px solid red; */
+}
+
+.main-page {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+
+
+}
+
+* {
+    /* border: 1px solid red; */
+}
+
+.main-page>nav {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.main-page>nav h2 {
+    width: 70%;
+}
+
+.main-page>nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+
+}
+
+.main-page>section {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page>nav ul li {
+    width: 100%;
+}
